@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?><studymanager version="2.0" solver_version="8.0">
+  <destination/>
+  <repository/>
+  <study label="Shape optimisation 2D" status="on">
+    <case label="case_cylinder" compute="on" post="off" status="off">
+        <notebook args="inlet_dow=1.0763636 inlet_up=1.0763636 ref_U=1.0763636"/>
+        <parametric args="--iter-dt 0.01 -n 2000 "/>
+    </case>
+    <case label="case_half_cylinder" compute="on" post="off" status="off">
+        <notebook args="inlet_dow=1.0763636 inlet_up=1.0763636 ref_U=1.0763636"/>
+        <parametric args="--iter-dt 0.01 -n 2000 "/>
+    </case>
+    <case label="case_triangle" compute="on" post="off" status="off">
+        <notebook args="inlet_dow=1.0763636 inlet_up=1.0763636 ref_U=1.0763636"/>
+        <parametric args="--iter-dt 0.01 -n 2000 "/>
+    </case>
+    <case label="case_square" compute="on" post="off" status="off">
+        <notebook args="inlet_dow=1.0763636 inlet_up=1.0763636 ref_U=1.0763636"/>
+        <parametric args="--iter-dt 0.01 -n 2000 "/>
+    </case>
+  </study>
+</studymanager>
